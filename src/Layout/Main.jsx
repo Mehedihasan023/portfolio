@@ -4,7 +4,7 @@ import NavBar from "../pages/NavBar/NavBar";
 
 const Main = () => {
     return (
-        <div>
+        <div className="scroll-smooth">
             <NavBar></NavBar>
             <Outlet></Outlet>
         </div>
