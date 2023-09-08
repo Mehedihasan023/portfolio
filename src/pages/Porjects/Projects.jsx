@@ -10,12 +10,12 @@ const Projects = () => {
         <div className='mb-10' >
             <h2 className="text-xl uppercase text-gray-500 text-center mt-5 mb-5">Check out some of my works</h2>
 
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-2/3 w-10/12 gap-4 mx-auto'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:pl-10 w-full p-4 md:gap-4 gap-2 mx-auto'>
                 {/* card */}
                 {/* 1 no card */}
-                <div className="border w-80 hover:shadow-xl">
+                <div className="border md:w-80 mx-auto w-full hover:shadow-xl">
                     <div>
-                        <img className="w-80" src={volunteerImg} alt="" />
+                        <img className="w-full" src={volunteerImg} alt="" />
                     </div>
                     <div>
                         <h1 className='text-center text-2xl font-bold my-2'>Volunteer Network</h1>
@@ -40,9 +40,9 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* 2 no card */}
-                <div className="border w-80 hover:shadow-xl">
+                <div className="border md:w-80 mx-auto w-full hover:shadow-xl">
                     <div>
-                        <img className="w-80" src={travelImg} alt="" />
+                        <img className="w-full" src={travelImg} alt="" />
                     </div>
                     <div>
                         <h1 className='text-center text-2xl font-bold my-2'>Travel Guru</h1>
@@ -65,9 +65,9 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* 3 no card */}
-                <div className="border w-80 hover:shadow-xl">
+                <div className="border md:w-80 mx-auto w-full hover:shadow-xl">
                     <div>
-                        <img className="w-80" src={newsImg} alt="" />
+                        <img className="w-full" src={newsImg} alt="" />
                     </div>
                     <div>
                         <h1 className='text-center text-2xl font-bold my-2'>The Dragon News</h1>
@@ -90,9 +90,9 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* 4 no card */}
-                <div className="border w-80 hover:shadow-xl">
+                <div className="border md:w-80 mx-auto w-full hover:shadow-xl">
                     <div>
-                        <img className="w-80" src={careerImg} alt="" />
+                        <img className="w-full" src={careerImg} alt="" />
                     </div>
                     <div>
                         <h1 className='text-center text-2xl font-bold my-2'>Career Path</h1>
@@ -114,9 +114,9 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* 5 no card */}
-                <div className="border w-80 hover:shadow-xl">
+                <div className="border md:w-80 mx-auto w-full hover:shadow-xl">
                     <div>
-                        <img className="w-80" src={exploreMealsImg} alt="" />
+                        <img className="w-full" src={exploreMealsImg} alt="" />
                     </div>
                     <div>
                         <h1 className='text-center text-2xl font-bold my-2'>Explore latest meals</h1>
@@ -137,9 +137,9 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* 6 no card */}
-                <div className="border w-80 hover:shadow-xl">
+                <div className="border md:w-80 mx-auto w-full hover:shadow-xl">
                     <div>
-                        <img className="w-80" src={educationImg} alt="" />
+                        <img className="w-full" src={educationImg} alt="" />
                     </div>
                     <div>
                         <h1 className='text-center text-2xl font-bold my-2'>Patshala Education</h1>

@@ -4,12 +4,12 @@ import profilePic from '../../assets/profile-pic.png';
 import './About.css'
 const About = () => {
     return (
-        <div className="bg-[#2B2B2B] h-screen -mt-[64px]">
+        <div className="bg-[#2B2B2B] h-screen -mt-[64px] ">
 
             <div className="flex justify-center items-center h-screen">
                 {/* about me */}
 
-                <div className="flex relative md:flex-row  flex-col-reverse">
+                <div className="flex  md:flex-row  flex-col-reverse">
                     <Slide>
                         <div className="md:w-96 w-72 md:m-0 m-10 text-start">
                             <h1 className="text-white text-2xl font-bold mb-3">About Me</h1>
@@ -25,7 +25,7 @@ const About = () => {
                         </div>
                     </Slide>
                       {/* profile image */}
-                    <div className="md:w-3/5 md:m-0  m-6"> 
+                    <div className="md:w-3/5 w-2/3 md:m-0 md:ml-0 md:mt-0 ml-14 mt-20 "> 
                         <img className="profile-pic md:w-80 md:h-80 w-64 h-64 " src={profilePic} alt="" /> 
                     </div>
 
