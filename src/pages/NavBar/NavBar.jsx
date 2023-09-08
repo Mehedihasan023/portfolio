@@ -25,7 +25,9 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <button className="btn btn-outline border-orange-500 hover:bg-orange-500 text-uppercase  text-white ">
+                        <a href="https://drive.google.com/uc?export=download&id=1_pW5UmI4itjKKIjGLP6pKiWavUF2XLaC"> Download cv</a>
+                    </button>
                 </div>
             </div>
         </div>

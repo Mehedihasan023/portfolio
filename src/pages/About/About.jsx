@@ -1,5 +1,5 @@
 import { FaMapMarkerAlt, FaPhoneAlt, FaRegEnvelope } from "react-icons/fa";
-import { Fade, Slide } from "react-awesome-reveal";
+import {  Slide } from "react-awesome-reveal";
 import profilePic from '../../assets/profile-pic.png';
 import './About.css'
 const About = () => {
@@ -24,8 +24,8 @@ const About = () => {
                         </div>
                     </Slide>
                       {/* profile image */}
-                    <div className="md:w-3/5 md:m-0 m-10"> 
-                        <img className="profile-pic w-80 h-80 " src={profilePic} alt="" /> 
+                    <div className="md:w-3/5 md:m-0  m-6"> 
+                        <img className="profile-pic md:w-80 md:h-80 w-64 h-64 " src={profilePic} alt="" /> 
                     </div>
 
                 </div>

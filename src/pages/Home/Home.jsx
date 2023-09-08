@@ -11,7 +11,7 @@ const Home = () => {
 
             <div className='flex justify-center items-center h-screen'>
                 <div>
-                    <h1 className='text-white text-6xl font-bold'>Mehedi Hasan</h1>
+                    <h1 className='text-white md:text-6xl text-4xl font-bold'>Mehedi Hasan</h1>
                      {/*designation */}
                     <div className='text-white flex justify-center mt-4'>
                         <h2 className='pr-2 text-2xl'>I{`'`}m </h2>
