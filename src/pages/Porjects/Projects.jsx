@@ -10,7 +10,7 @@ const Projects = () => {
         <div className='mb-10' >
             <h2 className="text-xl uppercase text-gray-500 text-center mt-5 mb-5">Check out some of my works</h2>
 
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:pl-10 w-full p-4 md:gap-4 gap-2 mx-auto'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full p-4 md:gap-4 gap-2 mx-auto'>
                 {/* card */}
                 {/* 1 no card */}
                 <div className="border md:w-80 mx-auto w-full hover:shadow-xl">
