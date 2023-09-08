@@ -21,6 +21,7 @@ const Education = () => {
                             <h1 className="font-bold">Daffodil International University</h1>
                              <h2 className="text-gray-600">CGPA: 3.54  </h2>
                         </div>
+                        {/* arrow */}
                         <div className="bg-white border shadow-xl w-4 h-4 rotate-45 absolute top-3 -left-2  md:left-[279px] z-0">
                         </div>
                     </div>
@@ -33,6 +34,7 @@ const Education = () => {
                             <h1 className="font-bold">Queen{`'`}s College</h1>
                              <h2 className="text-gray-600">GPA: 3.92  </h2>
                         </div>
+                        {/* arrow */}
                         <div className="bg-white border shadow-xl w-4 h-4 rotate-45 absolute top-1 -right-2 z-0">
                         </div>
                     </div>
@@ -46,6 +48,7 @@ const Education = () => {
                                 School</h1>
                             <h2 className="text-gray-600">CGPA: 4.33  </h2>
                         </div>
+                        {/* arrow */}
                         <div className="bg-white border shadow-xl w-4 h-4 rotate-45 absolute top-1 -left-2  md:left-[279px] z-0">
                         </div>
                     </div>

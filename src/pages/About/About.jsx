@@ -18,8 +18,9 @@ const About = () => {
                             <p className="text-gray-300 flex"><FaMapMarkerAlt className="text-orange-500 mt-1 mr-1"></FaMapMarkerAlt> Mohammadpur, Dhaka</p>
                             <p className="text-gray-300 flex mt-2"><FaPhoneAlt className="text-orange-500 mt-1 mr-1"></FaPhoneAlt>01868354285, 01827153894</p>
                             <p className="text-gray-300 flex mt-2"><FaRegEnvelope className="text-orange-500 mt-1 mr-1"></FaRegEnvelope>mh20973@gmail.com</p>
+                            {/* button to download cv */}
                             <button className="btn btn-outline border-orange-500 hover:bg-orange-500 text-uppercase  text-white mt-2">
-                                <a href="https://drive.google.com/uc?export=download&id=1_pW5UmI4itjKKIjGLP6pKiWavUF2XLaC"> Download cv</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1sOQ1u9Yrq83mkwNinE0pNM6Ost49TDnT"> Download cv</a>
                             </button>
                         </div>
                     </Slide>

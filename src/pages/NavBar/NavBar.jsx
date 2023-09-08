@@ -7,6 +7,7 @@ const NavBar = () => {
     <ActiveNav to='/skills'>Skills</ActiveNav>
     <ActiveNav to='/education'>Education</ActiveNav>
     <ActiveNav to='/experience'>Experience</ActiveNav>
+    <ActiveNav to='/projects'>Projects</ActiveNav>
     </>
     return (
         <div>
@@ -27,8 +28,8 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn btn-outline border-orange-500 hover:bg-orange-500 text-uppercase  text-white ">
-                        <a href="https://drive.google.com/uc?export=download&id=1_pW5UmI4itjKKIjGLP6pKiWavUF2XLaC"> Download cv</a>
+                    <button className="btn btn-outline border-orange-500 hover:bg-orange-500 text-uppercase  text-white">
+                        <a href="https://drive.google.com/uc?export=download&id=1sOQ1u9Yrq83mkwNinE0pNM6Ost49TDnT"> Download cv</a>
                     </button>
                 </div>
             </div>
